@@ -158,7 +158,7 @@ const MyForm = () => {
             name="mob_num"
             id="mob_num"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.mob_num}
             onChange={handleChange}
             pattern="\d{10}"
@@ -177,7 +177,7 @@ const MyForm = () => {
             name="fname"
             id="fname"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.fname}
             onChange={handleChange}
           />
@@ -194,7 +194,7 @@ const MyForm = () => {
             type="text"
             name="mname"
             id="mname"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.mname}
             onChange={handleChange}
           />
@@ -212,7 +212,7 @@ const MyForm = () => {
             name="lname"
             id="lname"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.lname}
             onChange={handleChange}
           />
@@ -230,7 +230,7 @@ const MyForm = () => {
             name="dob"
             id="dob"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.dob}
             onChange={handleChange}
           />
@@ -247,7 +247,7 @@ const MyForm = () => {
             name="gender"
             id="gender"
             required
-            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.gender}
             onChange={handleChange}
           >
@@ -269,7 +269,7 @@ const MyForm = () => {
             name="email"
             id="email"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.email}
             onChange={handleChange}
           />
@@ -289,7 +289,7 @@ const MyForm = () => {
             required
             maxLength="10"
             minLength="10"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.pan}
             onChange={handleChange}
             pattern="[A-Za-z]{5}\d{4}[A-Za-z]{1}"
@@ -318,7 +318,7 @@ const MyForm = () => {
             name="home_address1"
             id="home_address1"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.home_address1}
             onChange={handleChange}
           />
@@ -336,7 +336,7 @@ const MyForm = () => {
             type="text"
             name="home_address2"
             id="home_address2"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.home_address2}
             onChange={handleChange}
           />
@@ -355,7 +355,7 @@ const MyForm = () => {
             name="home_district"
             id="home_district"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.home_district}
             onChange={handleChange}
           />
@@ -374,7 +374,7 @@ const MyForm = () => {
             name="home_state"
             id="home_state"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.home_state}
             onChange={handleChange}
           />
@@ -395,7 +395,7 @@ const MyForm = () => {
             required
             pattern="\d{6}"
             title="Pin code must be 6 digits"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.home_pin_code}
             onChange={handleChange}
           />
@@ -422,7 +422,7 @@ const MyForm = () => {
             name="office_address1"
             id="office_address1"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.office_address1}
             onChange={handleChange}
           />
@@ -440,7 +440,7 @@ const MyForm = () => {
             type="text"
             name="office_address2"
             id="office_address2"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.office_address2}
             onChange={handleChange}
           />
@@ -459,7 +459,7 @@ const MyForm = () => {
             name="office_district"
             id="office_district"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.office_district}
             onChange={handleChange}
           />
@@ -477,7 +477,7 @@ const MyForm = () => {
             name="office_state"
             id="office_state"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.office_state}
             onChange={handleChange}
           />
@@ -497,7 +497,7 @@ const MyForm = () => {
             required
             pattern="\d{6}"
             title="Pin code must be 6 digits"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.office_pin_code}
             onChange={handleChange}
           />
@@ -522,7 +522,7 @@ const MyForm = () => {
             name="ifsc"
             id="ifsc"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.ifsc}
             onChange={handleChange}
           />
@@ -540,7 +540,7 @@ const MyForm = () => {
             name="acc_num"
             id="acc_num"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.acc_num}
             onChange={handleChange}
           />
@@ -558,7 +558,7 @@ const MyForm = () => {
             name="beneficiary_name"
             id="beneficiary_name"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.beneficiary_name}
             onChange={handleChange}
           />
@@ -575,7 +575,7 @@ const MyForm = () => {
             type="text"
             name="branch_id"
             id="branch_id"
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.branch_id}
             onChange={handleChange}
           />
@@ -600,7 +600,7 @@ const MyForm = () => {
             name="contract_or_commission"
             id="contract_or_commission"
             required
-            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.contract_or_commission}
             onChange={handleChange}
           >
@@ -620,7 +620,7 @@ const MyForm = () => {
             name="fos_or_dsa"
             id="fos_or_dsa"
             required
-            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block w-full rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.fos_or_dsa}
             onChange={handleChange}
           >
@@ -643,7 +643,7 @@ const MyForm = () => {
             name="onboarding_date"
             id="onboarding_date"
             required
-            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="mt-1 block h-8 w-full rounded-md border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm dark:text-gray-900"
             value={form.onboarding_date}
             onChange={handleChange}
           />
